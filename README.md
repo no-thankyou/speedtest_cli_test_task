@@ -1,4 +1,4 @@
-# speedtest-cli
+# speedtest-cli (тестовое задание)
 
 Скрипт замеряет скорость загрузки с вашего компьютера до указанного URL. Он выполняет
 N (по умолчанию 10) **последовательных** HTTP-запросов к адресу тяжёлого файла,
@@ -23,8 +23,8 @@ N (по умолчанию 10) **последовательных** HTTP-зап�
 ## Установка
 
 ```bash
-git clone <repo-url>
-cd <repo-dir>
+git clone https://github.com/no-thankyou/speedtest_cli_test_task.git
+cd speedtest_cli_test_task
 python3 -m venv .venv
 source .venv/bin/activate          # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
